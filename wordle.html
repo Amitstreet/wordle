@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <section class="wordle">
+    <div class="output">
+      <div class="grid">
+      </div>
+    </div>
+    <div class="keyboard">
+      <div class="grid_2">
+      </div>
+    </div>
+  </section class="wordle">
+  <script src="wordle.js"></script>
+  <style>
+    .grid {
+      padding: 15px;
+      display: flex;
+      width: 13rem;
+      flex-wrap: wrap;
+    }
+
+    .wordle {
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+
+    }
+
+    .val {
+      background-color: rgb(77, 171, 110);
+
+
+
+      align-items: center;
+      border: 2px solid #dee1e9;
+      font-size: 28px;
+      font-weight: 700;
+      height: 56px;
+      margin: 3px;
+      text-transform: uppercase;
+      width: 56px;
+      border-radius: 5px;
+      color: #393e4c;
+      background: #fbfcff;
+      width: 39px;
+      height: 37px;
+      margin: 1px;
+    }
+
+
+
+    .grid_2 {
+    
+      display: flex;
+      width: 28rem;
+
+      flex-wrap: wrap;
+    }
+
+    .key {
+      background-color: rgb(77, 171, 110);
+      color: #414a5e !important;
+      width: 39px;
+      height: 37px;
+      margin: 1px;
+      background-color: rgb(77, 171, 110);
+      color: #414a5e !important;
+      width: 39px;
+      height: 37px;
+      margin: 1px;
+      align-items: center;
+      background-color: #dce1ed;
+      color: #414a5e !important;
+      /* border: 2px solid transparent; */
+      border-radius: 4px;
+      color: inherit;
+      cursor: pointer;
+      user-select: none;
+      display: flex;
+      /* flex: 1 1; */
+      /* font-size: 17px; */
+      /* font-weight: 700; */
+      justify-content: center;
+      margin: 3px;
+      /* min-height: 46px; */
+      /* padding: 3px; */
+      text-decoration: inherit;
+      text-transform: capitalize;
+      transition: .2s;
+      width: 39px;
+      height: 37px;
+      margin: 1px;
+      align-items: center;
+      width: 39px;
+      height: 37px;
+      margin: 1px;
+      align-items: center;
+    }
+
+    .ENTER {
+      width: 5rem;
+    }
+
+    .green {
+      background-color: green;
+    }
+
+    .yellow {
+      background-color: yellow;
+    }
+
+    .gray {
+      background-color: gray;
+    }
+  </style>
+</body>
+
+</html>
